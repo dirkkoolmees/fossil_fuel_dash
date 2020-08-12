@@ -32,7 +32,7 @@ app.layout = html.Div([
                 {'label': c, 'value': c}
                 for c in dropdown_labels.columns
             ]),
-        ],style={'display': 'inline-block', 'width': '200px'}),  
+        ],style={'display': 'inline-block', 'width': '40px'}),  
         html.Div([
         html.H6("Year"),
         dcc.Slider(
