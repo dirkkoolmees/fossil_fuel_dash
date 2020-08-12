@@ -93,7 +93,6 @@ def create_graphs(column, value):
     bar.update_xaxes(title_text='')
     bar.update_yaxes(title_text='')
     bar.update_layout(title = 'Top 15 Countries')
-    bar.update_traces(showscale=False)
     return map, bar
 
 
